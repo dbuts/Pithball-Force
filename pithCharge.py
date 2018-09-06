@@ -20,7 +20,4 @@ if __name__ == "__main__":
         print("Charge per pith ball: " + str(char))
         print("Electric Force: " + str(forc))
         #print("Electric Force calc by gravity: " + str(forcg))
-        temp = input("Press enter to move on, or q to quit: ")
-        if temp == 'q':
-            exit()
-        clear()
+        print("Number of excess Protons/Electrons: " + str(format((char/1.60217662e-19),"e")))
